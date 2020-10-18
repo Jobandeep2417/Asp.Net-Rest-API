@@ -3,7 +3,7 @@ using Commander.Models;
 
 namespace Commander.Data
 {
-    public class MockCommandRepo : ICommanderRepo
+    public class MockCommanderRepo : ICommanderRepo
     {
         public IEnumerable<Command> GetAllCommands()
         {
